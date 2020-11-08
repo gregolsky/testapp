@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 8080
+const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 8080;
 
 const ENV_UNIQ = Math.floor(Math.random() * 1000).toString();
 
