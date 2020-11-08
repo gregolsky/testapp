@@ -1,0 +1,24 @@
+{
+  "name": "testapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dockerize": "docker build -t testapp ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregolsky/testapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregolsky/testapp/issues"
+  },
+  "homepage": "https://github.com/gregolsky/testapp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
